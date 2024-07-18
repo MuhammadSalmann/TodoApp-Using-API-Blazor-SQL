@@ -1,0 +1,75 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.main-box {
+    min-height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.todo {
+    background-color: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    box-shadow: 5px 5px 80px orange;
+    border-radius: 4px;
+}
+
+img {
+    width: 45px;
+    height: 35px;
+}
+
+h1 {
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px orange;
+}
+
+.task-entry {
+    width: 75%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: #edeef0;
+}
+
+input:hover, input:focus {
+    transition: border-color 0.5s ease;
+    border-color: orange;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+h5 {
+    margin: 10px 0;
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
