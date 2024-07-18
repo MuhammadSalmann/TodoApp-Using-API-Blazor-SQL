@@ -11,7 +11,7 @@ namespace ClassLibraryDal
     {
         public static SqlConnection GetConnection()
         {
-            SqlConnection conn = new SqlConnection("Data Source=SALMAN\\SQLEXPRESS;Initial Catalog=db_todo;Integrated Security=True;");
+            SqlConnection conn = new SqlConnection("Your Connection String");
             return conn;
         }
     }
